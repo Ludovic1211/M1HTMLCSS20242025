@@ -15,3 +15,27 @@ header {
     color: #217c89;
 }
 
+header h1 {
+    font-size: 70px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #217c89;
+    border: #FFF 1px solid;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    padding: 15px 0px;
+    box-shadow: 4px 4px 4px rgba(170,207,212,0.6);
+    cursor: pointer;
+}
